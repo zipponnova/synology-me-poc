@@ -3,13 +3,13 @@
 
 ## Overview
 
-Redis Vulnerability Scanner is a powerful and efficient script designed to scan Redis instances across multiple IP addresses and ports to identify potential vulnerabilities. This tool is particularly useful for cybersecurity professionals and network administrators to ensure the security of their Redis deployments.
+Redis Vulnerability Scanner is a powerful and efficient script designed to scan Redis instances across multiple IP addresses and ports to identify potential vulnerabilities.
 
 ## Features
 
 - Scans multiple IP addresses and ports concurrently.
 - Identifies vulnerable Redis instances.
-- Optionally fetches and displays proof of concept (PoC) data from vulnerable instances.
+- Optionally fetches keyvalue pairs from the database and displays proof of concept (PoC) data from vulnerable instances.
 - Provides detailed output including counts of vulnerable, non-vulnerable, and unreachable IPs.
 - Offers options to display only vulnerable IPs or only the IP addresses of vulnerable instances.
 
