@@ -23,7 +23,7 @@ Redis Vulnerability Scanner is a powerful and efficient script designed to scan 
 
 2. **Install dependencies:**
     ```sh
-    pip install redis termcolor
+    pip3 install redis termcolor
     ```
 
 ## Usage
@@ -43,6 +43,6 @@ Redis Vulnerability Scanner is a powerful and efficient script designed to scan 
 #### Scan IPs from a file and print only vulnerable IP addresses
 
 ```sh
-python redis-vulnerability-scanner.py --ips-file ips.txt --ports 6379 --only-ips
+python3 redis-vulnerability-scanner.py --ips-file ips.txt --ports 6379 --only-ips
 ```
 
